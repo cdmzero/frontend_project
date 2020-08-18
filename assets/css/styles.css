@@ -373,25 +373,87 @@ textarea:focus{
 
 
 
-
-/* Desde la anchura 0px hasta la anchura 900px de pantalla */
-
-
-@media (max-width: 900px){
-      /* se ejecutaran estos estilos */
-    body{
-        background: red;
-    }
-
+@media (max-width: 1488px){
+    .center {
+       width:85%;
+   } 
+  
 }
 
-/* Desde la anchura 900px hasta la anchura 1308px de pantalla */
-@media (max-width: 1400px){
-      /* se ejecutaran estos estilos */
-    body{
-        background: burlywood;
-    }
-
+@media (max-width: 1314px){
+    .center {
+      width:95%;
+    } 
+   #menu ul{
+      width: auto;
+    }  
 }
 
-@media (max-width: )
+
+
+@media (max-width: 1013px){
+    #logo {
+        float: none;
+        width: 240px;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+
+    #menu,
+    #menu ul{
+        clear: both;
+        float: none;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        line-height: 40px;
+    }
+
+    #content{
+        float: none;
+        width: 100%;
+    }
+
+    #sidebar{
+        float: none;
+        width: 60%;
+        margin: 0px auto;
+        margin-bottom: 50px; 
+    }
+
+    .mid-form{
+        width: 70%;
+    }
+ }
+
+
+ @media (max-width: 459px){
+    
+   #header {
+      min-height: 130px;
+      overflow: hidden;
+    } 
+    #menu,
+    #menu ul {
+        line-height: 40px;
+    }
+    
+    #menu ul li {
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    #slider{
+        height: 130px;
+    }
+
+    #slider h1{
+        font-size: 19px;
+        padding-top: 30px;
+    }
+
+    #slider .btn-white{
+        margin-top: 10px;
+    }
+}
+
